@@ -1,5 +1,23 @@
 # Calculating squares of numbers with unit digit 6
 
+### Parameters
+
+N : Number whose square is to be calculated
+
+u : unit digit
+
+t : number formed after excluding the unit digit
+
+### Formula
+
+```
+R = (N-4)*(t + 1) + 1
+```
+
+```
+Square(N) = Concat(R, 6)
+```
+
 ### Derivation
 
 ```python

@@ -2,7 +2,7 @@
 
 ### Parameters
 
-N : Number whose square is to be calculated
+N : Number(integer) whose square is to be calculated
 
 u : unit digit
 
@@ -11,7 +11,11 @@ t : number formed after excluding the unit digit
 ### Formula
 
 ```
-(N + 5) * t + 2
+ R = (N + 5) * t + 2
+```
+
+```
+Square(N) = Concat(R, 5)
 ```
 
 ### Derivation
@@ -51,7 +55,7 @@ t : number formed after excluding the unit digit
 >>> 
 ```
 
-Example
+### Example
 
 Calcualte square(685)?
 
