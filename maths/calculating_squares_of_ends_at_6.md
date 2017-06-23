@@ -36,28 +36,64 @@
 739
 >>> 96 * (9+1) - 39
 921
->>> 226 * (22 + 1) - (7 + 4*(22-1))   # A.P, a=7, d=4, then 22th term will be 7 + 4*(22-1)
+>>> 226 * (22 + 1) - (3 + 4*(22))   # A.P, a=7, d=4, then 22th term will be 7 + 4*(22-1)
 5107
 >>> 
 ```
 
+The last terms of each of the above evaluations are in A.P
+
+where first term is **a=3**, common difference is **d=4**
+
+Then nth term **Term_n** can be calculated as follows
+
 ```
-226 + (22 + 1) - ( 7 + 4 * (22 - 1) )
+  Term_n = a+(n-1)*d
 
-tu * (t+1) - (7 + 4 * (t - 1))
+  Term_1 = 3+(1-1)*4 = 3
 
-tu * (t + 1) -(7 + 4t - 4)
+  Term_2 = 3+(2-1)*4 = 7
+```
+
+And the nth **number formed after ignoring the unit digit** will be 1 less than the term number(n-1).
+
+eg.
+    16, the 2nd term, will give 1 (when we ignore the unit digit) which is 1 less than the term number
+
+    56, the 6nd term, will give 5 (when we ignore the unit digit) which is 1 less than the term number
+
+So in expression **3+(n-1)*4**, (n-1) denotes the **number formed after ignoring the unit digit**.
+
+And we will represent **(n-1)** as **t**. 
+
+So **Term_n** = **3+(n-1)*4** = **3+t*4** 
+
+226 will be 23rd term in A.P. 6, 16, 26, 36, ...
+
+```
+226 * (22 + 1) - (3 + 4*(23-1))  
+      ||
+      \/
+226 * (22 + 1) - (3 + 4*(22))  
+```
+
+```
+tu * (t+1) - (3 + 4 * (t))
+
+tu * (t + 1) -3 - 4t
 
 tu * (t + 1) - 3 - 4t
 
 tu * t + tu - 3 - 4t
 
-(tu - 4) * t + tu - 4 +1
+(tu - 4) * t + tu - 4 + 1
 
 (tu - 4) * (t + 1) + 1
+
+(N - 4) * (t + 1) + 1
 ```
 
-### Examples
+### Example
 
 ```
 If N = tu = 16 (t is concatenated with u)
@@ -98,6 +134,7 @@ Let's use formula,(N=96 ,t=9, u=6)
 ```
 
 We only multiplied 92 with 10(Not 96 with 96).
+
 ```
     92x10
    =======
@@ -106,3 +143,34 @@ We only multiplied 92 with 10(Not 96 with 96).
    -------
       920
 ```
+
+### More examples
+
+Calculate square(56)?
+
+```
+  Here N = 56, t = 5
+
+  So,
+     56^2 =  (56-4) * (5+1) + 1
+          =  52*6 + 1
+          =  312 + 1
+      R   =  313
+      R6  =  3136   (Concatenation of R and 6)
+```
+
+
+Calculate square(234576)?
+
+```
+  Here N = 234576, t = 23457
+
+  So,
+     234576^2 =  (234576-4) * (23457+1) + 1
+              =  234572*23458 + 1
+              =  5502589976 + 1
+         R    =  5502589977
+         R6   =  55025899776    (Concatenation of R and 6)
+```
+
+
