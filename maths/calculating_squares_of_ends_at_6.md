@@ -57,16 +57,17 @@ Then nth term **Term_n** can be calculated as follows
 
 And the nth **number formed after ignoring the unit digit** will be 1 less than the term number(n-1).
 
-eg.
-    16, the 2nd term, will give 1 (when we ignore the unit digit) which is 1 less than the term number
+**eg.**
 
-    56, the 6nd term, will give 5 (when we ignore the unit digit) which is 1 less than the term number
+16, the 2nd term, will give 1 (when we ignore the unit digit) which is 1 less than the term number
 
-So in expression **3+(n-1)*4**, (n-1) denotes the **number formed after ignoring the unit digit**.
+56, the 6th term, will give 5 (when we ignore the unit digit) which is 1 less than the term number
+
+So in expression **3+(n-1)\*4**, (n-1) denotes the **number formed after ignoring the unit digit**.
 
 And we will represent **(n-1)** as **t**. 
 
-So **Term_n** = **3+(n-1)*4** = **3+t*4** 
+So **Term_n** = **3+(n-1)\*4** = **3+t*4** 
 
 226 will be 23rd term in A.P. 6, 16, 26, 36, ...
 
