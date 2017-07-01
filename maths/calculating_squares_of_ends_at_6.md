@@ -4,7 +4,7 @@
 
 N : Number whose square is to be calculated
 
-u : unit digit
+u : unit digit of number(N)
 
 t : number formed after excluding the unit digit
 
@@ -18,7 +18,7 @@ R = (N-4)*(t + 1) + 1
 Square(N) = Concat(R, 6)
 ```
 
-### Derivation
+### Base of the derivation
 
 ```python
 >>> for i in range(16, 97, 10):

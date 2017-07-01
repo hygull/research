@@ -1,10 +1,10 @@
-# Calculating squares of numbers with unit digit 6
+# Calculating squares of numbers with unit digit 3
 
 ### Parameters
 
 N : Number(integer) whose square is to be calculated
 
-u : unit digit
+u : unit digit of number(N)
 
 t : number formed after excluding the unit digit
 
@@ -18,7 +18,7 @@ t : number formed after excluding the unit digit
 Square(N) = Concat(R, 5)
 ```
 
-### Derivation
+### Base of the derivation
 
 ```python
 >>> for i in range(5, 96, 10):
