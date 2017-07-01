@@ -11,7 +11,7 @@ t : number formed after excluding the unit digit
 ### Formula
 
 ```
-R = (N-4)*(t + 1) + 1
+R = (N - 4) * (t + 1) + 1
 ```
 
 ```
