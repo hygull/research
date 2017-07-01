@@ -62,7 +62,7 @@ Square(N) = Concat(R, 1)
 >>> 
 ```
 
-Or (Based on the formula **R = (N - 1) \* (t + 1) **)
+Or (Based on the formula **R = (N - 1) * (t + 1) **)
 
 ```python
 >>> for i in range(9, 100, 10):
@@ -125,7 +125,7 @@ Here
       N = 229
       t = 22
 So,
-      R = (N -1) * (t + 1)     
+      R = (N - 1) * (t + 1)     
       R = (229 - 1) * (22 + 1)
       R = 228 * 23
 
