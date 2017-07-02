@@ -143,7 +143,7 @@ Finally
 
           R = 2686 + 3
           R = 2689
-Square(229) = Concat(R, 4)
-Square(229) = Concat(2689, 4)
-Square(229) = 26894
+Square(229) = Concat(R, 6)
+Square(229) = Concat(2689, 6)
+Square(229) = 26896
 ```
