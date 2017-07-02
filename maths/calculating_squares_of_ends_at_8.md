@@ -1,4 +1,4 @@
-# Calculating squares of numbers with unit digit 
+# Calculating squares of numbers with unit digit 8
 
 ### Parameters
 
@@ -118,7 +118,7 @@ Caculate the square of 338?
      121104
 ```
 
-Let's calculate the square of 229 using formula, (N -1) * (t + 1)
+Let's calculate the square of 229 using formula, (N - 1) * (t + 1)
 
 ```
 Here 
@@ -140,7 +140,7 @@ Finally
 
 
           R = 12110
-Square(229) = Concat(R, 4)
-Square(229) = Concat(12110, 4)
-Square(229) = 121104
+Square(348) = Concat(R, 4)
+Square(348) = Concat(12110, 4)
+Square(348) = 121104
 ```
