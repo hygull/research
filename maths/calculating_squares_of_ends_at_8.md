@@ -1,4 +1,4 @@
-# Calculating squares of numbers with unit digit 8
+# Calculating square of numbers with unit digit 8
 
 ### Parameters
 

@@ -1,4 +1,4 @@
-# Calculating squares of numbers with unit digit 3
+# Calculating square of numbers with unit digit 3
 
 ### Parameters
 
