@@ -24,6 +24,9 @@ If **N = 46534**, then **t = 46534** and **u = 4**
 
 
 ### References
+Created on: 05 July 2017 (just after 12:00 a.m)
+* [Calculating square of integer numbers with unit digit 2](./maths/calculating_squares_of_ends_at_2.md) - **(N - 8) * (t + 1) + 6**
+
 Created on: 03 July 2017
 * [Calculating square of integer numbers with unit digit 3](./maths/calculating_squares_of_ends_at_3.md) - **(N - 7) * (t + 1) + 4**
 
