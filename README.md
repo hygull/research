@@ -9,7 +9,9 @@
 
 * t : number formed after excluding the unit digit
 
-<hr>
+
+----------
+
 
 ### eg.
    
@@ -17,7 +19,9 @@ If **N = 45**, then **t = 4** and **u = 5**
 
 If **N = 46534**, then **t = 46534** and **u = 4**
 
-<hr>
+
+----------
+
 
 ### References
 Created on: 03 July 2017
