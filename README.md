@@ -10,8 +10,6 @@
 * t : number formed after excluding the unit digit
 
 
-----------
-
 
 ### eg.
    
@@ -20,10 +18,12 @@ If **N = 45**, then **t = 4** and **u = 5**
 If **N = 46534**, then **t = 46534** and **u = 4**
 
 
-----------
-
 
 ### References
+
+Created on: 09 July 2017 
+* [Calculating square of integer numbers with unit digit 1](./maths/calculating_squares_of_ends_at_1.md) - **(N - 9) * (t + 1) + 8**
+
 Created on: 05 July 2017 (just after 12:00 a.m)
 * [Calculating square of integer numbers with unit digit 2](./maths/calculating_squares_of_ends_at_2.md) - **(N - 8) * (t + 1) + 6**
 
