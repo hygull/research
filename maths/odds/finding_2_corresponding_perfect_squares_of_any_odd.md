@@ -83,7 +83,7 @@ so
 
 ### Examples
 
-###### Find the perfect square corresponding to **1**.
+##### Find the perfect square corresponding to **1**.
 
 ```
 	odd = 1
@@ -97,7 +97,7 @@ then
 	p2 = 1
 ``` 
 
-###### Find the perfect square corresponding to **1**.
+##### Find the perfect square corresponding to **9**.
 
 ```
 	odd = 9
